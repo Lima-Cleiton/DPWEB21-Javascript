@@ -1,0 +1,18 @@
+#lampada{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    
+}
+
+.acender{
+    background-color: #FFEE00;
+}
+/* function acender(){ */
+    /* document.getElementById("lampada").classList.replace("apagar", "acender"); */
+
+.apagar{
+    background-color: #313131;
+}
+/* function apagar(){
+    /* document.getElementById("lampada").classList.replace("acender", "apagar"); */

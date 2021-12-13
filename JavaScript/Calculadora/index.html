@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./stayle.css">
+    <title>Calculadora com imputs</title>
+</head>
+<body>
+    <h1>Entre com os números que serão somados</h1>
+    <form>
+        
+    <div>
+        <label for="number1">Number 1</label>
+        <input id="number1" type="number" placeholder="Digite um número">
+    </div>
+    <div>
+        <label for="number2">Number 2</label>
+        <input id="number2" type="number" placeholder="Digite outro número">
+    </div>
+    <div>
+        <label for="resultado">Resultado </label>
+        <input id="resultado"type="number" placeholder="Resultado" disabled>
+    </div>
+    <div class="button">
+    <button onclick="somar()" type="button">Calcular</button>
+    <button onclick="calcularIMC()" type="button">Calcular IMC</button>
+    <button onclick="limparInputs()" type="button">Limpar</button>
+    </div>
+
+    </form>
+
+    <script src="./home.js"></script>
+</body>
+</html>

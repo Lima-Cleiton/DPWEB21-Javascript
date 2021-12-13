@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+        <title>Manipulando o DOM</title>
+</head>
+<body>
+   <button onclick="click_button()">Clique para aparecer um alerta</button>
+   <!-- onclick = um clique do mouse -->
+   <button onclick="adicionar_frase()"></button>Clique aqui para aparecer uma frase</button>
+   <!-- onclick="" = um clique do mouse -->
+
+   <button ondblclick="adicionar_frases()">Clique duplo</button>
+   <!-- ondblclick = dois clique do mouse ou clique duplo -->
+   <p id="paragrafo1"></p>
+   <p class="paragrafo"></p>
+   <p id="paragrafos"></p>
+
+
+   <p id="paragrafo2" onmousedown="mouse_down()" onmouseup="mouse_up()" ondblclick="click_duplo()">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta delectus quisquam exercitationem recusandae ipsa dolorum eum. Voluptatem reprehenderit tempora itaque placeat dolores possimus sequi fugit quidem cum. Sapiente, perferendis atque.</p>
+
+    <div id="lampada" class="apagar">
+
+    </div>
+
+    <button onclick="acender()">Clique aqui para acender a lampada</button>
+    <button onclick="apagar()">Clique aqui para apagar a lampada</button>
+
+
+
+
+
+
+
+   <script src="./home.js"></script>
+</body>
+</html>

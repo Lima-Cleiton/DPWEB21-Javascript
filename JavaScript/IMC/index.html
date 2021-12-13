@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculando IMC</title>
+    <script>
+        alert("Bem vindo!");
+
+        var peso = parseFloat(prompt("Qual é o seu peso?"));
+        alert(`Seu peso é ${peso}.`)
+        var altura = parseFloat(prompt("Qual é a sua altura?"));
+        alert(`Sua altura é ${altura}.`)
+        //var idade = parseInt(prompt("Qual é a sua idade?"));
+        //alert(`Sua idade é ${idade}.`)
+        
+        var imc = parseInt(peso / (altura * altura));
+        alert(`Seu imc é ${imc}.!`)
+
+        document.write(`O IMC calculado a partir do peso ${peso} e da altura ${altura} é de ${imc}`)
+
+        //var caloriasGastas = parseInt((9.56 * peso) + (1.85 * altura) - (4.68 * idade) + 665);
+        //alert(`Sua calorais gastas durante o dia são ${caloriasGastas}!`)
+
+        // const qntDividir = 2;
+
+        // var num1 = parseInt(prompt("Digite um número"));
+        // var num2 = parseInt(prompt("Digite outro número"));
+
+        // var resultadoMedia = parseInt((num1 + num2) / qntDividir);
+        // alert(`O resiltado da médias entre os números ${num1} e ${num2} é ${resultadoMedia}`);
+
+    </script>
+
+</head>
+<body>
+   
+
+    <h1>Calculando o Índice de Massa Corporal</h1>
+
+</body>
+</html>
